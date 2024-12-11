@@ -26,7 +26,7 @@ export default {
   methods: {
     async fetchMedicines() {
       try {
-        const res = await fetch('https://medicine-app-x1ix.onrender.com/api');
+        const res = await fetch('https://backend-gcxv.onrender.com/api');
         if (!res.ok) {
           throw new Error('Network response was not ok');
         }
