@@ -101,8 +101,8 @@ main{
 }
 .logo img{
     border-radius: var(--radius);
-    width: 45vw;
-    height: 50vh;
+    width: 44vw;
+    height: 52vh;
 }
 .About {
     grid-area: about;
@@ -139,7 +139,7 @@ main{
     "title"
     "no"
     "no";
-    background-color: #5F093D;   
+    background-color: #003161;   
     margin: 1vw 2vw 1vw 1vw;
     border-radius: var(--radius);
 }
@@ -166,7 +166,7 @@ main{
     font-weight: normal;
     font-size: 1.2vw;
     padding: 1.2vw;
-    background-color:#EFD3B5;
+    background-color:#FFF4B7;
     margin: 1.5vw;
     width: 6.6vw;
     text-align: center; 
@@ -194,7 +194,8 @@ main{
     "title"
     "comp"
     "details";
-    background-color: #B5EECB;
+    background-color: #006A67;
+    color:white;
 }
 .div2{
     margin-left: 2vw;
@@ -205,7 +206,8 @@ main{
     grid-template-areas: 
     "title"
     "edudetails";
-    background-color:#CBC7FC;  
+    background-color:#006A67;  
+    color: white;
 }
 .comp{
     grid-area: comp;
@@ -251,7 +253,7 @@ main{
     "title"
     "pro"
     ;
-    background-color: #00478F;
+    background-color: #000B58;
     border-radius: var(--radius);
     height: auto;
     margin: 1vw 2vw 1vw 1vw;
@@ -268,13 +270,15 @@ main{
 #p1{
     width: 45vw;
     grid-area: pd1;
-    background-color: #C79989;
+    background-color: #FFF4B7;
+    color:black;
 }
 #dd{
     margin-left: 3vw;
     width: 45vw;
     grid-area: pd2;
-    background-color: #C79989;
+    background-color: #FFF4B7;
+    color:black;
     margin-right: 1vw;
 }
 .Blogs{
@@ -373,11 +377,11 @@ main{
         "about";
     }
     .logo,.About{
-        width: 97vw;
+        width: 90vw;
     }
     .logo img{
         border-radius: var(--radius);
-        width: 98vw;
+        width: 95.5vw;
         height: 50vh;
     }
     .name{
@@ -388,10 +392,10 @@ main{
     }
     .info{
         font-size: 2vw;
-        width: 97vw;
+        width: 95vw;
     }
     .Skills{
-        width: 98vw;
+        width: 94vw;
     }
     .title{
         font-size: 4vw;
@@ -401,7 +405,7 @@ main{
         display: grid;
         grid-template-columns: repeat(4, 0.04fr);
         overflow: hidden;
-        column-gap: 12.5vw;
+        column-gap: 11vw;
         row-gap: 1.5vw;
         margin-left: 1vw;
         margin-right: 1vw;
@@ -424,7 +428,7 @@ main{
         "div2";
     }
     .div1,.div2{
-        width: 98vw;
+        width: 94vw;
     }
     .div2{
         margin-left: 1vw;
@@ -439,7 +443,7 @@ main{
         font-size: 2.25vw;
     }
     .Projects {
-      width: 98vw;
+      width: 94vw;
     }
     .pro {
         grid-area: pro;
@@ -448,10 +452,10 @@ main{
         "pd2";
     }
     #p1{
-        width: 96vw;
+        width: 92vw;
     }
     #dd{
-        width: 96vw;
+        width: 92vw;
         margin-left: 1vw;
     }
     #blog{
@@ -462,7 +466,7 @@ main{
         "class2";
     }
     #class1, #class2{
-        width: 97vw;
+        width: 94vw;
     }
     .photo{
         width:40vw;
@@ -474,4 +478,3 @@ main{
         height: 3vh;
     }
 }
-
